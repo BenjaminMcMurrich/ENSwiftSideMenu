@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController, ENSideMenuDelegate {
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.sideMenuController()?.sideMenu?.delegate = self
